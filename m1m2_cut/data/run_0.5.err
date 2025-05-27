@@ -1,0 +1,308 @@
+The latest version of Julia in the `release` channel is 1.11.5+0.x64.linux.gnu. You currently have `1.11.3+0.x64.linux.gnu` installed. Run:
+
+  juliaup update
+
+in your terminal shell to install Julia 1.11.5+0.x64.linux.gnu and update the `release` channel to that version.
+  Activating project at `~/35Msun_GWTC3/m1m2_cut`
+[ Info: Could not read IGWN-GWTC2p1-v2-GW190425_081805_PEDataRelease_mixed_nocosmo.h5
+┌ Warning: Could not read Nposts from /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv: ArgumentError("Cannot open '/mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv': not a file")
+└ @ Main ~/35Msun_GWTC3/m1m2_cut/scripts/run_mcmc.jl:107
+┌ Warning: Using default of 16 samples per event
+└ @ Main ~/35Msun_GWTC3/m1m2_cut/scripts/run_mcmc.jl:108
+[ Info: Analyzing 51 events
+┌ Warning: Reducing Nselection from 32768 to 23205
+└ @ Main ~/35Msun_GWTC3/m1m2_cut/scripts/run_mcmc.jl:133
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:42:18
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:43:19
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:34:56
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:52:21
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:52:22
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 2875.59
+[ Info: Minimum Neff_samps = 1.02 for event GW191109_010717
+[ Info: Updating Nposts for event GW150914 from 16 to 32
+[ Info: Updating Nposts for event GW151012 from 16 to 32
+[ Info: Updating Nposts for event GW170729 from 16 to 32
+[ Info: Updating Nposts for event GW170809 from 16 to 32
+[ Info: Updating Nposts for event GW170814 from 16 to 32
+[ Info: Updating Nposts for event GW170823 from 16 to 32
+[ Info: Updating Nposts for event GW190408_181802 from 16 to 32
+[ Info: Updating Nposts for event GW190412 from 16 to 32
+[ Info: Updating Nposts for event GW190413_134308 from 16 to 32
+[ Info: Updating Nposts for event GW190421_213856 from 16 to 32
+[ Info: Updating Nposts for event GW190503_185404 from 16 to 32
+[ Info: Updating Nposts for event GW190512_180714 from 16 to 32
+[ Info: Updating Nposts for event GW190513_205428 from 16 to 32
+[ Info: Updating Nposts for event GW190517_055101 from 16 to 32
+[ Info: Updating Nposts for event GW190519_153544 from 16 to 32
+[ Info: Updating Nposts for event GW190602_175927 from 16 to 32
+[ Info: Updating Nposts for event GW190630_185205 from 16 to 32
+[ Info: Updating Nposts for event GW190701_203306 from 16 to 32
+[ Info: Updating Nposts for event GW190706_222641 from 16 to 32
+[ Info: Updating Nposts for event GW190719_215514 from 16 to 32
+[ Info: Updating Nposts for event GW190731_140936 from 16 to 32
+[ Info: Updating Nposts for event GW190803_022701 from 16 to 32
+[ Info: Updating Nposts for event GW190828_063405 from 16 to 32
+[ Info: Updating Nposts for event GW190910_112807 from 16 to 32
+[ Info: Updating Nposts for event GW190929_012149 from 16 to 32
+[ Info: Updating Nposts for event GW191109_010717 from 16 to 32
+[ Info: Updating Nposts for event GW191127_050227 from 16 to 32
+[ Info: Updating Nposts for event GW191222_033537 from 16 to 32
+[ Info: Updating Nposts for event GW191230_180458 from 16 to 32
+[ Info: Updating Nposts for event GW200112_155838 from 16 to 32
+[ Info: Updating Nposts for event GW200128_022011 from 16 to 32
+[ Info: Updating Nposts for event GW200129_065458 from 16 to 32
+[ Info: Updating Nposts for event GW200208_130117 from 16 to 32
+[ Info: Updating Nposts for event GW200209_085452 from 16 to 32
+[ Info: Updating Nposts for event GW200216_220804 from 16 to 32
+[ Info: Updating Nposts for event GW200219_094415 from 16 to 32
+[ Info: Updating Nposts for event GW200224_222234 from 16 to 32
+[ Info: Updating Nposts for event GW200302_015811 from 16 to 32
+[ Info: Updating Nposts for event GW200311_115853 from 16 to 32
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [32, 32, 16, 32, 32, 32, 16, 32, 32, 32, 16, 32, 32, 32, 32, 32, 32, 32, 16, 16, 32, 16, 32, 32, 32, 32, 16, 32, 32, 16, 32, 16, 32, 16, 16, 32, 32, 32, 16, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 3:59:12
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:21:32
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:27:17
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:27:30
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:27:30
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 2148.06
+[ Info: Minimum Neff_samps = 1.04 for event GW190512_180714
+[ Info: Updating Nposts for event GW150914 from 32 to 64
+[ Info: Updating Nposts for event GW170729 from 32 to 64
+[ Info: Updating Nposts for event GW190412 from 32 to 64
+[ Info: Updating Nposts for event GW190413_134308 from 32 to 64
+[ Info: Updating Nposts for event GW190421_213856 from 32 to 64
+[ Info: Updating Nposts for event GW190503_185404 from 32 to 64
+[ Info: Updating Nposts for event GW190512_180714 from 32 to 64
+[ Info: Updating Nposts for event GW190513_205428 from 32 to 64
+[ Info: Updating Nposts for event GW190517_055101 from 32 to 64
+[ Info: Updating Nposts for event GW190519_153544 from 32 to 64
+[ Info: Updating Nposts for event GW190521_074359 from 16 to 32
+[ Info: Updating Nposts for event GW190602_175927 from 32 to 64
+[ Info: Updating Nposts for event GW190620_030421 from 16 to 32
+[ Info: Updating Nposts for event GW190630_185205 from 32 to 64
+[ Info: Updating Nposts for event GW190701_203306 from 32 to 64
+[ Info: Updating Nposts for event GW190706_222641 from 32 to 64
+[ Info: Updating Nposts for event GW190719_215514 from 32 to 64
+[ Info: Updating Nposts for event GW190731_140936 from 32 to 64
+[ Info: Updating Nposts for event GW190805_211137 from 16 to 32
+[ Info: Updating Nposts for event GW190828_063405 from 32 to 64
+[ Info: Updating Nposts for event GW190828_065509 from 16 to 32
+[ Info: Updating Nposts for event GW190929_012149 from 32 to 64
+[ Info: Updating Nposts for event GW191109_010717 from 32 to 64
+[ Info: Updating Nposts for event GW191215_223052 from 16 to 32
+[ Info: Updating Nposts for event GW191222_033537 from 32 to 64
+[ Info: Updating Nposts for event GW191230_180458 from 32 to 64
+[ Info: Updating Nposts for event GW200112_155838 from 32 to 64
+[ Info: Updating Nposts for event GW200128_022011 from 32 to 64
+[ Info: Updating Nposts for event GW200129_065458 from 32 to 64
+[ Info: Updating Nposts for event GW200208_130117 from 32 to 64
+[ Info: Updating Nposts for event GW200216_220804 from 32 to 64
+[ Info: Updating Nposts for event GW200224_222234 from 32 to 64
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [64, 32, 16, 64, 32, 32, 16, 32, 32, 64, 16, 64, 64, 64, 64, 64, 64, 64, 32, 16, 64, 32, 64, 64, 64, 64, 16, 64, 32, 32, 64, 32, 32, 16, 16, 64, 64, 32, 32, 64, 64, 64, 64, 64, 64, 32, 64, 32, 64, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 3:57:31
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:24:06
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:28:27
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:25:55
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:25:55
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 1026.46
+[ Info: Minimum Neff_samps = 1.04 for event GW190517_055101
+[ Info: Updating Nposts for event GW170729 from 64 to 128
+[ Info: Updating Nposts for event GW170818 from 16 to 32
+[ Info: Updating Nposts for event GW190503_185404 from 64 to 128
+[ Info: Updating Nposts for event GW190512_180714 from 64 to 128
+[ Info: Updating Nposts for event GW190517_055101 from 64 to 128
+[ Info: Updating Nposts for event GW190519_153544 from 64 to 128
+[ Info: Updating Nposts for event GW190527_092055 from 16 to 32
+[ Info: Updating Nposts for event GW190706_222641 from 64 to 128
+[ Info: Updating Nposts for event GW190805_211137 from 32 to 64
+[ Info: Updating Nposts for event GW190828_063405 from 64 to 128
+[ Info: Updating Nposts for event GW190828_065509 from 32 to 64
+[ Info: Updating Nposts for event GW190910_112807 from 32 to 64
+[ Info: Updating Nposts for event GW190915_235702 from 16 to 32
+[ Info: Updating Nposts for event GW190929_012149 from 64 to 128
+[ Info: Updating Nposts for event GW191109_010717 from 64 to 128
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [64, 32, 16, 128, 32, 32, 32, 32, 32, 64, 16, 64, 64, 128, 128, 64, 128, 128, 32, 32, 64, 32, 64, 64, 128, 64, 16, 64, 32, 64, 128, 64, 64, 32, 16, 128, 128, 32, 32, 64, 64, 64, 64, 64, 64, 32, 64, 32, 64, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:00:34
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:21:53
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:27:56
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:25:57
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:25:57
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 1294.74
+[ Info: Minimum Neff_samps = 1.07 for event GW190517_055101
+[ Info: Updating Nposts for event GW170729 from 128 to 256
+[ Info: Updating Nposts for event GW190408_181802 from 32 to 64
+[ Info: Updating Nposts for event GW190413_052954 from 16 to 32
+[ Info: Updating Nposts for event GW190517_055101 from 128 to 256
+[ Info: Updating Nposts for event GW190519_153544 from 128 to 256
+[ Info: Updating Nposts for event GW190521_074359 from 32 to 64
+[ Info: Updating Nposts for event GW190727_060333 from 16 to 32
+[ Info: Updating Nposts for event GW190910_112807 from 64 to 128
+[ Info: Updating Nposts for event GW190915_235702 from 32 to 64
+[ Info: Updating Nposts for event GW190929_012149 from 128 to 256
+[ Info: Updating Nposts for event GW191109_010717 from 128 to 256
+[ Info: Updating Nposts for event GW191127_050227 from 32 to 64
+[ Info: Updating Nposts for event GW191215_223052 from 32 to 64
+[ Info: Updating Nposts for event GW191222_033537 from 64 to 128
+[ Info: Updating Nposts for event GW200216_220804 from 64 to 128
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [64, 32, 16, 256, 32, 32, 32, 32, 64, 64, 32, 64, 64, 128, 128, 64, 256, 256, 64, 32, 64, 32, 64, 64, 128, 64, 32, 64, 32, 64, 128, 64, 128, 64, 16, 256, 256, 64, 64, 128, 64, 64, 64, 64, 64, 32, 128, 32, 64, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:09:38
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:24:24
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:29:20
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:28:28
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:28:28
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 2163.19
+[ Info: Minimum Neff_samps = 1.07 for event GW190517_055101
+[ Info: Updating Nposts for event GW170729 from 256 to 512
+[ Info: Updating Nposts for event GW190412 from 64 to 128
+[ Info: Updating Nposts for event GW190517_055101 from 256 to 512
+[ Info: Updating Nposts for event GW190521_074359 from 64 to 128
+[ Info: Updating Nposts for event GW190828_063405 from 128 to 256
+[ Info: Updating Nposts for event GW190828_065509 from 64 to 128
+[ Info: Updating Nposts for event GW190929_012149 from 256 to 512
+[ Info: Updating Nposts for event GW191109_010717 from 256 to 512
+[ Info: Updating Nposts for event GW191127_050227 from 64 to 128
+[ Info: Updating Nposts for event GW200129_065458 from 64 to 128
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [64, 32, 16, 512, 32, 32, 32, 32, 64, 128, 32, 64, 64, 128, 128, 64, 512, 256, 128, 32, 64, 32, 64, 64, 128, 64, 32, 64, 32, 64, 256, 128, 128, 64, 16, 512, 512, 128, 64, 128, 64, 64, 64, 128, 64, 32, 128, 32, 64, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:14:37
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:26:52
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:29:19
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:34:23
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:34:23
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 2207.38
+[ Info: Minimum Neff_samps = 1.1 for event GW190517_055101
+[ Info: Updating Nposts for event GW190413_134308 from 64 to 128
+[ Info: Updating Nposts for event GW190517_055101 from 512 to 1024
+[ Info: Updating Nposts for event GW190925_232845 from 16 to 32
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [64, 32, 16, 512, 32, 32, 32, 32, 64, 128, 32, 128, 64, 128, 128, 64, 1024, 256, 128, 32, 64, 32, 64, 64, 128, 64, 32, 64, 32, 64, 256, 128, 128, 64, 32, 512, 512, 128, 64, 128, 64, 64, 64, 128, 64, 32, 128, 32, 64, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:22:10
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:29:56
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:31:34
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:35:58
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:35:58
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 2461.61
+[ Info: Minimum Neff_samps = 1.5 for event GW190517_055101
+[ Info: Updating Nposts for event GW170823 from 32 to 64
+[ Info: Updating Nposts for event GW190517_055101 from 1024 to 2048
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [64, 32, 16, 512, 32, 32, 32, 64, 64, 128, 32, 128, 64, 128, 128, 64, 2048, 256, 128, 32, 64, 32, 64, 64, 128, 64, 32, 64, 32, 64, 256, 128, 128, 64, 32, 512, 512, 128, 64, 128, 64, 64, 64, 128, 64, 32, 128, 32, 64, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:09:18
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:29:15
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:30:23
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:33:47
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:33:47
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 2155.45
+[ Info: Minimum Neff_samps = 3.36 for event GW190517_055101
+[ Info: Updating Nposts for event GW190517_055101 from 2048 to 4096
+[ Info: Updating Nposts for event GW190925_232845 from 32 to 16
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [64, 32, 16, 512, 32, 32, 32, 64, 64, 128, 32, 128, 64, 128, 128, 64, 4096, 256, 128, 32, 64, 32, 64, 64, 128, 64, 32, 64, 32, 64, 256, 128, 128, 64, 16, 512, 512, 128, 64, 128, 64, 64, 64, 128, 64, 32, 128, 32, 64, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:38:47
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:34:02
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:32:07
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:39:32
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:39:32
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 1992.53
+[ Info: Minimum Neff_samps = 2.62 for event GW200128_022011
+[ Info: Updating Nposts for event GW170809 from 32 to 64
+[ Info: Updating Nposts for event GW190421_213856 from 64 to 128
+[ Info: Updating Nposts for event GW190503_185404 from 128 to 256
+[ Info: Updating Nposts for event GW191109_010717 from 512 to 1024
+[ Info: Updating Nposts for event GW200128_022011 from 64 to 128
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [64, 32, 16, 512, 64, 32, 32, 64, 64, 128, 32, 128, 128, 256, 128, 64, 4096, 256, 128, 32, 64, 32, 64, 64, 128, 64, 32, 64, 32, 64, 256, 128, 128, 64, 16, 512, 1024, 128, 64, 128, 64, 64, 128, 128, 64, 32, 128, 32, 64, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:39:32
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:38:27
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:33:11
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:40:44
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:40:44
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 2064.85
+[ Info: Minimum Neff_samps = 4.46 for event GW190925_232845
+[ Info: Updating Nposts for event GW190503_185404 from 256 to 128
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [64, 32, 16, 512, 64, 32, 32, 64, 64, 128, 32, 128, 128, 128, 128, 64, 4096, 256, 128, 32, 64, 32, 64, 64, 128, 64, 32, 64, 32, 64, 256, 128, 128, 64, 16, 512, 1024, 128, 64, 128, 64, 64, 128, 128, 64, 32, 128, 32, 64, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:45:57
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:36:37
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:32:34
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:39:49
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:39:49
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 1085.54
+[ Info: Minimum Neff_samps = 3.61 for event GW170104
+[ Info: Updating Nposts for event GW170104 from 16 to 32
+[ Info: Updating Nposts for event GW190412 from 128 to 64
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [64, 32, 32, 512, 64, 32, 32, 64, 64, 64, 32, 128, 128, 128, 128, 64, 4096, 256, 128, 32, 64, 32, 64, 64, 128, 64, 32, 64, 32, 64, 256, 128, 128, 64, 16, 512, 1024, 128, 64, 128, 64, 64, 128, 128, 64, 32, 128, 32, 64, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:44:50
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:36:47
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:32:39
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:47:02
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:47:02
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 2112.07
+[ Info: Minimum Neff_samps = 3.85 for event GW170104
+[ Info: Updating Nposts for event GW170104 from 32 to 64
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [64, 32, 64, 512, 64, 32, 32, 64, 64, 64, 32, 128, 128, 128, 128, 64, 4096, 256, 128, 32, 64, 32, 64, 64, 128, 64, 32, 64, 32, 64, 256, 128, 128, 64, 16, 512, 1024, 128, 64, 128, 64, 64, 128, 128, 64, 32, 128, 32, 64, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:41:30
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:38:19
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:33:10
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:42:48
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:42:48
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 1196.7
+[ Info: Minimum Neff_samps = 3.83 for event GW200216_220804
+[ Info: Updating Nposts for event GW200216_220804 from 128 to 256
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/35Msun_GWTC3/m1m2_cut/scripts/../data/nposts_0.5.csv = [64, 32, 64, 512, 64, 32, 32, 64, 64, 64, 32, 128, 128, 128, 128, 64, 4096, 256, 128, 32, 64, 32, 64, 64, 128, 64, 32, 64, 32, 64, 256, 128, 128, 64, 16, 512, 1024, 128, 64, 128, 64, 64, 128, 128, 64, 32, 256, 32, 64, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 51 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:36:24
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:33:06
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:32:28
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:37:25
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:37:25
+[ Info: 4*N = 204
+[ Info: Minimum Neff_sel = 1800.97
+[ Info: Minimum Neff_samps = 4.25 for event GW191230_180458
+[ Info: No updates to Nposts
