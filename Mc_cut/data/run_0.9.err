@@ -1,0 +1,694 @@
+The latest version of Julia in the `release` channel is 1.11.5+0.x64.linux.gnu. You currently have `1.11.3+0.x64.linux.gnu` installed. Run:
+
+  juliaup update
+
+in your terminal shell to install Julia 1.11.5+0.x64.linux.gnu and update the `release` channel to that version.
+┌ Warning: Module AdvancedHMC with build ID fafbfcfd-dcc3-020e-0000-507687025a19 is missing from the cache.
+│ This may mean AdvancedHMC [0bf59076-c3b1-5ca4-86bd-e02cd72cde3d] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:2541
+┌ Warning: Module AdvancedHMC with build ID fafbfcfd-dcc3-020e-0000-507687025a19 is missing from the cache.
+│ This may mean AdvancedHMC [0bf59076-c3b1-5ca4-86bd-e02cd72cde3d] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:2541
+┌ Warning: Module AdvancedHMC with build ID fafbfcfd-dcc3-020e-0000-507687025a19 is missing from the cache.
+│ This may mean AdvancedHMC [0bf59076-c3b1-5ca4-86bd-e02cd72cde3d] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:2541
+┌ Warning: Module Turing with build ID ffffffff-ffff-ffff-0000-50be55a8972c is missing from the cache.
+│ This may mean Turing [fce5fe82-541a-59a6-adf8-730c64b5f9a0] does not support precompilation but is imported by a module that does.
+└ @ Base loading.jl:2541
+  Activating project at `~/bumpcosmologygwtc3_Mc`
+Precompiling AdvancedHMC...
+    ArgCheck Being precompiled by another machine (hostname: worker5163, pid: 487240, pidfile: /mnt/home/sroy1/.julia/compiled/v1.11/ArgCheck/P66Js_ZiJYF.ji.pidfile)
+    DocStringExtensions Being precompiled by another machine (hostname: worker5161, pid: 670998, pidfile: /mnt/home/sroy1/.julia/compiled/v1.11/DocStringExtensions/KRdZs_ZiJYF.ji.pidfile)
+   1059.6 ms  ✓ ProgressMeter
+    640.4 ms  ✓ ConsoleProgressMonitor
+   1892.8 ms  ✓ DataStructures
+    741.6 ms  ✓ SortingAlgorithms
+  10476.4 ms  ✓ DocStringExtensions
+  10839.6 ms  ✓ ArgCheck
+    LogDensityProblems Being precompiled by another machine (hostname: worker5161, pid: 670998, pidfile: /mnt/home/sroy1/.julia/compiled/v1.11/LogDensityProblems/wTQV3_ZiJYF.ji.pidfile)
+    Transducers Being precompiled by another machine (hostname: worker5161, pid: 670998, pidfile: /mnt/home/sroy1/.julia/compiled/v1.11/Transducers/cATK6_ZiJYF.ji.pidfile)
+    743.1 ms  ✓ LogExpFunctions
+    819.1 ms  ✓ LogExpFunctions → LogExpFunctionsInverseFunctionsExt
+   2543.5 ms  ✓ SpecialFunctions
+   2572.5 ms  ✓ StatsBase
+   1171.3 ms  ✓ HypergeometricFunctions
+   1859.9 ms  ✓ StatsFuns
+    676.5 ms  ✓ StatsFuns → StatsFunsInverseFunctionsExt
+  10222.4 ms  ✓ Transducers
+  20286.7 ms  ✓ LogDensityProblems
+    791.3 ms  ✓ LogDensityProblemsAD
+   2151.6 ms  ✓ AbstractMCMC
+   2846.6 ms  ✓ AdvancedHMC
+  18 dependencies successfully precompiled in 38 seconds. 68 already precompiled.
+Precompiling ArviZ...
+   1122.9 ms  ✓ EnumX
+   1033.5 ms  ✓ Interfaces
+   1015.4 ms  ✓ NaNMath
+    979.9 ms  ✓ Adapt
+   1000.1 ms  ✓ PDMats
+   1351.6 ms  ✓ DifferentiationInterface
+    823.7 ms  ✓ Adapt → AdaptSparseArraysExt
+    830.2 ms  ✓ ArrayInterface
+   1138.1 ms  ✓ PSIS
+   1212.4 ms  ✓ QuadGK
+    874.7 ms  ✓ FillArrays → FillArraysPDMatsExt
+    551.8 ms  ✓ ArrayInterface → ArrayInterfaceStaticArraysCoreExt
+    936.9 ms  ✓ DifferentiationInterface → DifferentiationInterfaceSparseArraysExt
+    878.7 ms  ✓ ArrayInterface → ArrayInterfaceSparseArraysExt
+    874.7 ms  ✓ FiniteDiff
+    791.2 ms  ✓ FiniteDiff → FiniteDiffSparseArraysExt
+    796.1 ms  ✓ DifferentiationInterface → DifferentiationInterfaceFiniteDiffExt
+   3530.4 ms  ✓ ForwardDiff
+    959.9 ms  ✓ DifferentiationInterface → DifferentiationInterfaceForwardDiffExt
+   1628.4 ms  ✓ DataInterpolations
+   1095.3 ms  ✓ NLSolversBase
+   5269.8 ms  ✓ Distributions
+   2006.3 ms  ✓ LineSearches
+   1359.3 ms  ✓ Distributions → DistributionsTestExt
+   1776.8 ms  ✓ MCMCDiagnosticTools
+   3086.6 ms  ✓ Optim
+  12112.1 ms  ✓ DimensionalData
+   1352.0 ms  ✓ DimensionalData → DimensionalDataStatsBase
+   1317.6 ms  ✓ InferenceObjects
+   4567.1 ms  ✓ DataInterpolations → DataInterpolationsOptimExt
+   1751.5 ms  ✓ InferenceObjects → InferenceObjectsMCMCDiagnosticToolsExt
+   2190.5 ms  ✓ PosteriorStats
+   2432.3 ms  ✓ InferenceObjects → InferenceObjectsPosteriorStatsExt
+  22539.0 ms  ✓ ArviZ
+  34 dependencies successfully precompiled in 46 seconds. 85 already precompiled.
+Precompiling TransducersAdaptExt...
+   1049.0 ms  ✓ Transducers → TransducersAdaptExt
+  1 dependency successfully precompiled in 1 seconds. 42 already precompiled.
+Precompiling LogDensityProblemsADForwardDiffExt...
+    953.7 ms  ✓ LogDensityProblemsAD → LogDensityProblemsADForwardDiffExt
+  1 dependency successfully precompiled in 1 seconds. 23 already precompiled.
+Precompiling LogDensityProblemsADADTypesExt...
+    644.1 ms  ✓ LogDensityProblemsAD → LogDensityProblemsADADTypesExt
+  1 dependency successfully precompiled in 1 seconds. 5 already precompiled.
+Precompiling LogDensityProblemsADDifferentiationInterfaceExt...
+    643.1 ms  ✓ LogDensityProblemsAD → LogDensityProblemsADDifferentiationInterfaceExt
+  1 dependency successfully precompiled in 1 seconds. 7 already precompiled.
+Precompiling BumpCosmologyGWTC3...
+   1907.8 ms  ✓ FastClosures
+   1691.6 ms  ✓ LogExpFunctions → LogExpFunctionsChangesOfVariablesExt
+   2401.5 ms  ✓ HashArrayMappedTries
+   2332.5 ms  ✓ LRUCache
+   2622.3 ms  ✓ InlineStrings
+   1853.5 ms  ✓ GPUArraysCore
+   1847.3 ms  ✓ PooledArrays
+   1530.7 ms  ✓ SciMLStructures
+   3116.1 ms  ✓ OffsetArrays
+   2123.6 ms  ✓ SparseMatrixColorings
+   1567.8 ms  ✓ StructArrays
+   2300.6 ms  ✓ Chairmarks
+   2029.9 ms  ✓ ColorTypes
+   3474.6 ms  ✓ ExproniconLite
+    549.8 ms  ✓ ScopedValues
+    623.2 ms  ✓ DifferentiationInterface → DifferentiationInterfaceGPUArraysCoreExt
+    761.1 ms  ✓ Functors
+    765.6 ms  ✓ Xorg_libXau_jll
+    594.4 ms  ✓ Chairmarks → StatisticsChairmarksExt
+    758.6 ms  ✓ Pixman_jll
+    800.3 ms  ✓ FFTW_jll
+    780.6 ms  ✓ Libuuid_jll
+   1105.4 ms  ✓ ForwardDiff → ForwardDiffStaticArraysExt
+   1295.9 ms  ✓ MPItrampoline_jll
+    742.7 ms  ✓ OpenBLASConsistentFPCSR_jll
+   1351.2 ms  ✓ SSMProblems
+    776.8 ms  ✓ L_BFGS_B_jll
+    648.7 ms  ✓ DifferentiationInterface → DifferentiationInterfaceChainRulesCoreExt
+   1656.1 ms  ✓ StatsFuns → StatsFunsChainRulesCoreExt
+    643.4 ms  ✓ ArrayInterface → ArrayInterfaceChainRulesCoreExt
+   3150.3 ms  ✓ Roots
+   1885.4 ms  ✓ SciMLOperators
+    809.0 ms  ✓ FreeType2_jll
+   1195.0 ms  ✓ FilePathsBase
+   3688.9 ms  ✓ SparseConnectivityTracer
+    819.6 ms  ✓ Blosc_jll
+    818.6 ms  ✓ Adapt → AdaptStaticArraysExt
+   1369.1 ms  ✓ LogExpFunctions → LogExpFunctionsChainRulesCoreExt
+    808.5 ms  ✓ DifferentiationInterface → DifferentiationInterfaceStaticArraysExt
+    810.5 ms  ✓ FiniteDiff → FiniteDiffStaticArraysExt
+   1254.4 ms  ✓ OpenMPI_jll
+    573.8 ms  ✓ LRUCache → SerializationExt
+    723.0 ms  ✓ Graphite2_jll
+    550.6 ms  ✓ ArrayInterface → ArrayInterfaceGPUArraysCoreExt
+    730.7 ms  ✓ Libmount_jll
+    899.0 ms  ✓ Libtask
+    750.4 ms  ✓ PolyLog → PolyLogForwardDiffExt
+   1399.8 ms  ✓ NamedArrays
+    723.0 ms  ✓ libpng_jll
+   1673.2 ms  ✓ SymbolicIndexingInterface
+   3360.3 ms  ✓ UnitfulAstro
+   1607.1 ms  ✓ CommonDataModel
+   1764.4 ms  ✓ SpecialFunctions → SpecialFunctionsChainRulesCoreExt
+   1204.0 ms  ✓ PopModels
+    831.9 ms  ✓ XZ_jll
+    617.5 ms  ✓ OffsetArrays → OffsetArraysAdaptExt
+    617.0 ms  ✓ StackViews
+    657.7 ms  ✓ PaddedViews
+   1308.9 ms  ✓ Distributions → DistributionsDensityInterfaceExt
+   1024.7 ms  ✓ DataInterpolations → DataInterpolationsChainRulesCoreExt
+   1333.0 ms  ✓ Distributions → DistributionsChainRulesCoreExt
+   1318.0 ms  ✓ GaussianKDEs
+    595.7 ms  ✓ StructArrays → StructArraysAdaptExt
+    760.8 ms  ✓ Xorg_libXdmcp_jll
+   1729.3 ms  ✓ EllipticalSliceSampling
+    614.1 ms  ✓ StructArrays → StructArraysLinearAlgebraExt
+    887.3 ms  ✓ DifferentiationInterface → DifferentiationInterfaceSparseMatrixColoringsExt
+    673.0 ms  ✓ Accessors → StructArraysExt
+    699.3 ms  ✓ BangBang → BangBangStructArraysExt
+   1368.0 ms  ✓ DiskArrays
+    911.8 ms  ✓ StructArrays → StructArraysStaticArraysExt
+   1064.3 ms  ✓ Xorg_xtrans_jll
+    991.5 ms  ✓ StructArrays → StructArraysSparseArraysExt
+   2059.5 ms  ✓ AdvancedMH
+    763.6 ms  ✓ FriBidi_jll
+    739.7 ms  ✓ ColorTypes → StyledStringsExt
+    715.0 ms  ✓ LBFGSB
+    692.2 ms  ✓ Roots → RootsChainRulesCoreExt
+   1647.0 ms  ✓ QOI
+   1343.0 ms  ✓ Optimisers
+    807.5 ms  ✓ Roots → RootsForwardDiffExt
+    674.0 ms  ✓ SciMLOperators → SciMLOperatorsStaticArraysCoreExt
+   1695.2 ms  ✓ Jieko
+   1993.5 ms  ✓ ColorVectorSpace
+   4868.9 ms  ✓ Graphs
+   1844.9 ms  ✓ AdvancedPS
+    862.8 ms  ✓ SciMLOperators → SciMLOperatorsSparseArraysExt
+    706.6 ms  ✓ FilePathsBase → FilePathsBaseMmapExt
+    950.9 ms  ✓ Fontconfig_jll
+   1215.7 ms  ✓ FreeType
+    940.2 ms  ✓ FilePaths
+   1293.3 ms  ✓ FilePathsBase → FilePathsBaseTestExt
+    837.9 ms  ✓ DifferentiationInterface → DifferentiationInterfaceSparseConnectivityTracerExt
+   1222.5 ms  ✓ SparseConnectivityTracer → SparseConnectivityTracerNaNMathExt
+   1112.6 ms  ✓ SparseConnectivityTracer → SparseConnectivityTracerLogExpFunctionsExt
+   1263.8 ms  ✓ SparseConnectivityTracer → SparseConnectivityTracerDataInterpolationsExt
+   1524.1 ms  ✓ SparseConnectivityTracer → SparseConnectivityTracerSpecialFunctionsExt
+   3400.1 ms  ✓ IntervalArithmetic
+    789.5 ms  ✓ libsixel_jll
+   1036.8 ms  ✓ Glib_jll
+    825.6 ms  ✓ Libtiff_jll
+    896.3 ms  ✓ libzip_jll
+    662.2 ms  ✓ MosaicViews
+   1165.1 ms  ✓ Cosmology
+   4347.0 ms  ✓ Colors
+   1948.9 ms  ✓ HDF5_jll
+   1110.1 ms  ✓ DimensionalData → DimensionalDataDiskArraysExt
+    635.8 ms  ✓ Optimisers → OptimisersAdaptExt
+   1319.4 ms  ✓ Xorg_libxcb_jll
+   9263.8 ms  ✓ Parsers
+   5313.6 ms  ✓ FFTW
+   2473.5 ms  ✓ RecursiveArrayTools
+    809.3 ms  ✓ ColorVectorSpace → SpecialFunctionsExt
+   3242.0 ms  ✓ KernelAbstractions
+   1634.6 ms  ✓ AdvancedMH → AdvancedMHStructArraysExt
+   2188.5 ms  ✓ Interpolations
+    811.3 ms  ✓ IntervalArithmetic → IntervalArithmeticForwardDiffExt
+   1741.3 ms  ✓ AdvancedMH → AdvancedMHForwardDiffExt
+    707.1 ms  ✓ IntervalArithmetic → IntervalArithmeticIntervalSetsExt
+   9849.6 ms  ✓ GeometryBasics
+    740.5 ms  ✓ IntervalArithmetic → IntervalArithmeticDiffRulesExt
+    739.1 ms  ✓ Graphics
+    804.4 ms  ✓ Animations
+    948.6 ms  ✓ IntervalArithmetic → IntervalArithmeticRecipesBaseExt
+   1649.6 ms  ✓ AdvancedPS → AdvancedPSLibtaskExt
+    971.0 ms  ✓ SparseMatrixColorings → SparseMatrixColoringsColorsExt
+    646.3 ms  ✓ InlineStrings → ParsersExt
+    957.4 ms  ✓ Xorg_libX11_jll
+    977.8 ms  ✓ RecursiveArrayTools → RecursiveArrayToolsStructArraysExt
+   1966.2 ms  ✓ OpenEXR
+   3482.9 ms  ✓ Bijectors
+   1142.2 ms  ✓ RecursiveArrayTools → RecursiveArrayToolsSparseArraysExt
+   1675.4 ms  ✓ NetCDF_jll
+   1658.6 ms  ✓ JSON
+   1102.8 ms  ✓ RecursiveArrayTools → RecursiveArrayToolsForwardDiffExt
+    894.3 ms  ✓ KernelAbstractions → LinearAlgebraExt
+   1190.9 ms  ✓ KernelAbstractions → SparseArraysExt
+   1009.6 ms  ✓ StructArrays → StructArraysGPUArraysCoreExt
+   1446.5 ms  ✓ Interpolations → InterpolationsUnitfulExt
+   4048.7 ms  ✓ ExactPredicates
+   1302.0 ms  ✓ Packing
+    845.5 ms  ✓ Xorg_libXrender_jll
+   5769.8 ms  ✓ ChainRules
+   3668.2 ms  ✓ ColorSchemes
+   1702.2 ms  ✓ ShaderAbstractions
+    827.3 ms  ✓ Xorg_libXext_jll
+    838.6 ms  ✓ ColorBrewer
+   1618.7 ms  ✓ Bijectors → BijectorsForwardDiffExt
+   2300.2 ms  ✓ FreeTypeAbstraction
+   1682.2 ms  ✓ AbstractPPL
+   7153.8 ms  ✓ Moshi
+   4359.1 ms  ? KernelDensity
+   4278.3 ms  ✓ MakieCore
+   6762.6 ms  ✓ HDF5
+   5392.5 ms  ✓ GridLayoutBase
+   4035.4 ms  ✓ NCDatasets
+   5252.7 ms  ✓ NNlib
+   5886.7 ms  ✓ DelaunayTriangulation
+   5409.1 ms  ✓ MCMCChains
+  14808.1 ms  ✓ ImageCore
+   8260.1 ms  ✓ DynamicPPL
+   8473.5 ms  ✓ SciMLBase
+    805.8 ms  ? AdvancedHMC → AdvancedHMCMCMCChainsExt
+  11317.9 ms  ✓ Cairo_jll
+  11795.0 ms  ✓ PlotUtils
+  11049.9 ms  ✓ Libglvnd_jll
+  13889.0 ms  ✓ DistributionsAD
+  31958.6 ms  ✓ DataFrames
+  18263.7 ms  ✓ MathTeXEngine
+  12305.6 ms  ✓ NNlib → NNlibForwardDiffExt
+  15357.1 ms  ✓ NNlib → NNlibFFTWExt
+  16250.8 ms  ✓ NNlib → NNlibSpecialFunctionsExt
+    SciMLBaseChainRulesCoreExt Being precompiled by another machine (hostname: worker5161, pid: 670998, pidfile: /mnt/home/sroy1/.julia/compiled/v1.11/SciMLBaseChainRulesCoreExt/rhCXQ_ZiJYF.ji.pidfile)
+  10869.2 ms  ✓ SparseConnectivityTracer → SparseConnectivityTracerNNlibExt
+  21091.6 ms  ✓ ArrayInterface → ArrayInterfaceChainRulesExt
+    979.8 ms  ✓ HarfBuzz_jll
+   1072.8 ms  ✓ libwebp_jll
+    BijectorsDistributionsADExt Being precompiled by another machine (hostname: worker5163, pid: 487240, pidfile: /mnt/home/sroy1/.julia/compiled/v1.11/BijectorsDistributionsADExt/xlUeC_ZiJYF.ji.pidfile)
+   1623.3 ms  ✓ DistributionsAD → DistributionsADForwardDiffExt
+  13166.6 ms  ✓ ArviZ → ArviZMCMCChainsExt
+  12773.6 ms  ✓ AdvancedMH → AdvancedMHMCMCChainsExt
+    libass_jll Being precompiled by another machine (hostname: worker5163, pid: 487240, pidfile: /mnt/home/sroy1/.julia/compiled/v1.11/libass_jll/JqZi8_ZiJYF.ji.pidfile)
+    Pango_jll Being precompiled by another machine (hostname: worker5163, pid: 487240, pidfile: /mnt/home/sroy1/.julia/compiled/v1.11/Pango_jll/lZI8Y_ZiJYF.ji.pidfile)
+  22377.6 ms  ✓ InferenceObjects → InferenceObjectsNCDatasetsExt
+   1838.9 ms  ✓ Transducers → TransducersDataFramesExt
+   4806.3 ms  ✓ Tracker
+   1880.3 ms  ✓ BangBang → BangBangDataFramesExt
+  14118.6 ms  ✓ MCMCChainsStorage
+   2633.6 ms  ✓ OptimizationBase
+   1204.3 ms  ✓ ArrayInterface → ArrayInterfaceTrackerExt
+   1265.0 ms  ✓ DifferentiationInterface → DifferentiationInterfaceTrackerExt
+   1666.2 ms  ✓ Tracker → TrackerPDMatsExt
+   1317.1 ms  ✓ LogDensityProblemsAD → LogDensityProblemsADTrackerExt
+  27989.2 ms  ✓ Mooncake
+    790.9 ms  ✓ OptimizationBase → OptimizationForwardDiffExt
+    593.5 ms  ✓ OptimizationBase → OptimizationFiniteDiffExt
+   1752.0 ms  ✓ RecursiveArrayTools → RecursiveArrayToolsTrackerExt
+   2768.1 ms  ✓ Bijectors → BijectorsTrackerExt
+   1994.3 ms  ✓ Mooncake → MooncakeSpecialFunctionsExt
+   2245.1 ms  ✓ Optimization
+    OptimizationOptimJL Being precompiled by another machine (hostname: worker5163, pid: 487240, pidfile: /mnt/home/sroy1/.julia/compiled/v1.11/OptimizationOptimJL/d3R9i_ZiJYF.ji.pidfile)
+   1867.9 ms  ✓ DifferentiationInterface → DifferentiationInterfaceMooncakeExt
+   3014.8 ms  ✓ DistributionsAD → DistributionsADTrackerExt
+   2078.9 ms  ✓ Bijectors → BijectorsMooncakeExt
+   2323.2 ms  ✓ Mooncake → MooncakeNNlibExt
+  10111.2 ms  ✓ SciMLBase → SciMLBaseChainRulesCoreExt
+  10114.7 ms  ✓ Bijectors → BijectorsDistributionsADExt
+  13631.5 ms  ✓ Sixel
+  10110.0 ms  ✓ libass_jll
+  10173.3 ms  ✓ Pango_jll
+  22496.0 ms  ✓ ImageBase
+  12708.2 ms  ✓ WebP
+   1209.7 ms  ✓ FFMPEG_jll
+   1524.9 ms  ✓ Cairo
+  23857.0 ms  ✓ PNGFiles
+  47203.6 ms  ✓ TiffImages
+   2016.7 ms  ✓ ImageAxes
+  23935.0 ms  ✓ JpegTurbo
+   1350.9 ms  ✓ ImageMetadata
+   2097.9 ms  ✓ Netpbm
+  22424.9 ms  ✓ DynamicPPL → DynamicPPLChainRulesCoreExt
+  13193.2 ms  ✓ DynamicPPL → DynamicPPLMooncakeExt
+  22191.6 ms  ✓ DynamicPPL → DynamicPPLForwardDiffExt
+  23189.7 ms  ✓ DynamicPPL → DynamicPPLMCMCChainsExt
+  23238.5 ms  ✓ OptimizationOptimJL
+  22794.2 ms  ✓ AdvancedVI
+   3749.7 ms  ? Turing
+   3893.0 ms  ? Turing → TuringOptimExt
+ 108927.6 ms  ✓ Makie
+   8687.5 ms  ✓ SciMLBase → SciMLBaseMakieExt
+   8986.5 ms  ✓ DimensionalData → DimensionalDataMakie
+  30554.7 ms  ✓ PairPlots
+  39405.4 ms  ✓ CairoMakie
+   8902.3 ms  ✓ PairPlots → PairPlotsDynamicUnitfulExt
+   9458.2 ms  ✓ PairPlots → MCMCChainsExt
+Info Given BumpCosmologyGWTC3 was explicitly requested, output will be shown live [0K
+[0K┌ Warning: Module AdvancedHMC with build ID fafbfcfd-dcc3-020e-0000-507687025a19 is missing from the cache.
+[0K│ This may mean AdvancedHMC [0bf59076-c3b1-5ca4-86bd-e02cd72cde3d] does not support precompilation but is imported by a module that does.
+[0K└ @ Base loading.jl:2541
+    798.8 ms  ? BumpCosmologyGWTC3
+  226 dependencies successfully precompiled in 219 seconds. 297 already precompiled.
+  5 dependencies failed but may be precompilable after restarting julia
+  5 dependencies had output during precompilation:
+┌ BumpCosmologyGWTC3
+│  [Output was shown above]
+└  
+┌ Turing → TuringOptimExt
+│  ┌ Warning: Module AdvancedHMC with build ID fafbfcfd-dcc3-020e-0000-507687025a19 is missing from the cache.
+│  │ This may mean AdvancedHMC [0bf59076-c3b1-5ca4-86bd-e02cd72cde3d] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ Turing
+│  ┌ Warning: Module AdvancedHMC with build ID fafbfcfd-dcc3-020e-0000-507687025a19 is missing from the cache.
+│  │ This may mean AdvancedHMC [0bf59076-c3b1-5ca4-86bd-e02cd72cde3d] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+┌ KernelDensity
+│  ┌ Warning: The call to compilecache failed to create a usable precompiled cache file for Interpolations [a98d9a8b-a2ab-59e6-89dd-64a1c18fca59]
+│  │   exception = Required dependency Base.PkgId(Base.UUID("e1699a77-9e31-5da8-bb3e-0a796f95f0a0"), "AdaptStaticArraysExt") failed to load from a cache file.
+│  └ @ Base loading.jl:2596
+└  
+┌ AdvancedHMC → AdvancedHMCMCMCChainsExt
+│  ┌ Warning: Module AdvancedHMC with build ID fafbfcfd-dcc3-020e-0000-507687025a19 is missing from the cache.
+│  │ This may mean AdvancedHMC [0bf59076-c3b1-5ca4-86bd-e02cd72cde3d] does not support precompilation but is imported by a module that does.
+│  └ @ Base loading.jl:2541
+└  
+Precompiling AdvancedHMCMCMCChainsExt...
+Info Given AdvancedHMCMCMCChainsExt was explicitly requested, output will be shown live [0K
+[0K┌ Warning: Module AdvancedHMC with build ID fafbfcfd-dcc3-020e-0000-507687025a19 is missing from the cache.
+[0K│ This may mean AdvancedHMC [0bf59076-c3b1-5ca4-86bd-e02cd72cde3d] does not support precompilation but is imported by a module that does.
+[0K└ @ Base loading.jl:2541
+    810.9 ms  ? AdvancedHMC → AdvancedHMCMCMCChainsExt
+Precompiling Turing...
+    837.7 ms  ? AdvancedHMC → AdvancedHMCMCMCChainsExt
+Info Given Turing was explicitly requested, output will be shown live [0K
+[0K┌ Warning: Module AdvancedHMC with build ID fafbfcfd-dcc3-020e-0000-507687025a19 is missing from the cache.
+[0K│ This may mean AdvancedHMC [0bf59076-c3b1-5ca4-86bd-e02cd72cde3d] does not support precompilation but is imported by a module that does.
+[0K└ @ Base loading.jl:2541
+   3505.7 ms  ? Turing
+   5235.8 ms  ? Turing → TuringOptimExt
+Precompiling TuringOptimExt...
+    829.8 ms  ? AdvancedHMC → AdvancedHMCMCMCChainsExt
+   3426.8 ms  ? Turing
+Info Given TuringOptimExt was explicitly requested, output will be shown live [0K
+[0K┌ Warning: Module Turing with build ID ffffffff-ffff-ffff-0000-50be55a8972c is missing from the cache.
+[0K│ This may mean Turing [fce5fe82-541a-59a6-adf8-730c64b5f9a0] does not support precompilation but is imported by a module that does.
+[0K└ @ Base loading.jl:2541
+    836.5 ms  ? Turing → TuringOptimExt
+[ Info: Could not read IGWN-GWTC2p1-v2-GW190425_081805_PEDataRelease_mixed_nocosmo.h5
+┌ Warning: Could not read Nposts from /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv: ArgumentError("Cannot open '/mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv': not a file")
+└ @ Main ~/bumpcosmologygwtc3_Mc/scripts/run_mcmc.jl:107
+┌ Warning: Using default of 16 samples per event
+└ @ Main ~/bumpcosmologygwtc3_Mc/scripts/run_mcmc.jl:108
+[ Info: Analyzing 39 events
+┌ Warning: Reducing Nselection from 32768 to 13043
+└ @ Main ~/bumpcosmologygwtc3_Mc/scripts/run_mcmc.jl:133
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 3:04:27
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:06:57
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:25:10
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:19:58
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:19:59
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 901.44
+[ Info: Minimum Neff_samps = 1.0 for event GW190517_055101
+[ Info: Updating Nposts for event GW150914 from 16 to 32
+[ Info: Updating Nposts for event GW170104 from 16 to 32
+[ Info: Updating Nposts for event GW170729 from 16 to 32
+[ Info: Updating Nposts for event GW170809 from 16 to 32
+[ Info: Updating Nposts for event GW170814 from 16 to 32
+[ Info: Updating Nposts for event GW170818 from 16 to 32
+[ Info: Updating Nposts for event GW170823 from 16 to 32
+[ Info: Updating Nposts for event GW190413_052954 from 16 to 32
+[ Info: Updating Nposts for event GW190413_134308 from 16 to 32
+[ Info: Updating Nposts for event GW190421_213856 from 16 to 32
+[ Info: Updating Nposts for event GW190503_185404 from 16 to 32
+[ Info: Updating Nposts for event GW190513_205428 from 16 to 32
+[ Info: Updating Nposts for event GW190517_055101 from 16 to 32
+[ Info: Updating Nposts for event GW190521_074359 from 16 to 32
+[ Info: Updating Nposts for event GW190527_092055 from 16 to 32
+[ Info: Updating Nposts for event GW190620_030421 from 16 to 32
+[ Info: Updating Nposts for event GW190630_185205 from 16 to 32
+[ Info: Updating Nposts for event GW190719_215514 from 16 to 32
+[ Info: Updating Nposts for event GW190727_060333 from 16 to 32
+[ Info: Updating Nposts for event GW190731_140936 from 16 to 32
+[ Info: Updating Nposts for event GW190805_211137 from 16 to 32
+[ Info: Updating Nposts for event GW190828_063405 from 16 to 32
+[ Info: Updating Nposts for event GW190910_112807 from 16 to 32
+[ Info: Updating Nposts for event GW190915_235702 from 16 to 32
+[ Info: Updating Nposts for event GW190929_012149 from 16 to 32
+[ Info: Updating Nposts for event GW191127_050227 from 16 to 32
+[ Info: Updating Nposts for event GW191230_180458 from 16 to 32
+[ Info: Updating Nposts for event GW200112_155838 from 16 to 32
+[ Info: Updating Nposts for event GW200128_022011 from 16 to 32
+[ Info: Updating Nposts for event GW200129_065458 from 16 to 32
+[ Info: Updating Nposts for event GW200208_130117 from 16 to 32
+[ Info: Updating Nposts for event GW200209_085452 from 16 to 32
+[ Info: Updating Nposts for event GW200216_220804 from 16 to 32
+[ Info: Updating Nposts for event GW200219_094415 from 16 to 32
+[ Info: Updating Nposts for event GW200302_015811 from 16 to 32
+[ Info: Updating Nposts for event GW200311_115853 from 16 to 32
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 16, 32, 32, 32, 32, 32, 32, 16, 32, 32, 32, 32, 32, 32, 32, 32, 16, 32, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 2:45:57
+Sampling (4 processes)  50%|██████████████              |  ETA: 0:56:02
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:18:47
+Sampling (4 processes) 100%|████████████████████████████| Time: 0:59:17
+Sampling (4 processes) 100%|████████████████████████████| Time: 0:59:17
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 1029.06
+[ Info: Minimum Neff_samps = 1.0 for event GW190929_012149
+[ Info: Updating Nposts for event GW150914 from 32 to 64
+[ Info: Updating Nposts for event GW170104 from 32 to 64
+[ Info: Updating Nposts for event GW170729 from 32 to 64
+[ Info: Updating Nposts for event GW170809 from 32 to 64
+[ Info: Updating Nposts for event GW170818 from 32 to 64
+[ Info: Updating Nposts for event GW170823 from 32 to 64
+[ Info: Updating Nposts for event GW190413_052954 from 32 to 64
+[ Info: Updating Nposts for event GW190413_134308 from 32 to 64
+[ Info: Updating Nposts for event GW190421_213856 from 32 to 64
+[ Info: Updating Nposts for event GW190503_185404 from 32 to 64
+[ Info: Updating Nposts for event GW190513_205428 from 32 to 64
+[ Info: Updating Nposts for event GW190517_055101 from 32 to 64
+[ Info: Updating Nposts for event GW190521_074359 from 32 to 64
+[ Info: Updating Nposts for event GW190620_030421 from 32 to 64
+[ Info: Updating Nposts for event GW190630_185205 from 32 to 64
+[ Info: Updating Nposts for event GW190719_215514 from 32 to 64
+[ Info: Updating Nposts for event GW190803_022701 from 16 to 32
+[ Info: Updating Nposts for event GW190805_211137 from 32 to 64
+[ Info: Updating Nposts for event GW190828_063405 from 32 to 64
+[ Info: Updating Nposts for event GW190910_112807 from 32 to 64
+[ Info: Updating Nposts for event GW190929_012149 from 32 to 64
+[ Info: Updating Nposts for event GW191127_050227 from 32 to 64
+[ Info: Updating Nposts for event GW191222_033537 from 16 to 32
+[ Info: Updating Nposts for event GW191230_180458 from 32 to 64
+[ Info: Updating Nposts for event GW200208_130117 from 32 to 64
+[ Info: Updating Nposts for event GW200209_085452 from 32 to 64
+[ Info: Updating Nposts for event GW200216_220804 from 32 to 64
+[ Info: Updating Nposts for event GW200224_222234 from 16 to 32
+[ Info: Updating Nposts for event GW200302_015811 from 32 to 64
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [64, 64, 64, 64, 32, 64, 64, 64, 64, 64, 64, 64, 64, 64, 32, 64, 64, 64, 32, 32, 32, 64, 64, 64, 32, 64, 64, 32, 64, 32, 32, 32, 64, 64, 64, 32, 32, 64, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 2:49:35
+Sampling (4 processes)  50%|██████████████              |  ETA: 0:57:39
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:19:16
+Sampling (4 processes) 100%|████████████████████████████| Time: 0:58:32
+Sampling (4 processes) 100%|████████████████████████████| Time: 0:58:32
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 866.65
+[ Info: Minimum Neff_samps = 1.0 for event GW190929_012149
+[ Info: Updating Nposts for event GW170729 from 64 to 128
+[ Info: Updating Nposts for event GW170818 from 64 to 128
+[ Info: Updating Nposts for event GW190413_134308 from 64 to 128
+[ Info: Updating Nposts for event GW190421_213856 from 64 to 128
+[ Info: Updating Nposts for event GW190517_055101 from 64 to 128
+[ Info: Updating Nposts for event GW190521_074359 from 64 to 128
+[ Info: Updating Nposts for event GW190620_030421 from 64 to 128
+[ Info: Updating Nposts for event GW190805_211137 from 64 to 128
+[ Info: Updating Nposts for event GW190828_063405 from 64 to 128
+[ Info: Updating Nposts for event GW190910_112807 from 64 to 128
+[ Info: Updating Nposts for event GW190929_012149 from 64 to 128
+[ Info: Updating Nposts for event GW191127_050227 from 64 to 128
+[ Info: Updating Nposts for event GW191222_033537 from 32 to 64
+[ Info: Updating Nposts for event GW191230_180458 from 64 to 128
+[ Info: Updating Nposts for event GW200112_155838 from 32 to 64
+[ Info: Updating Nposts for event GW200128_022011 from 32 to 64
+[ Info: Updating Nposts for event GW200216_220804 from 64 to 128
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [64, 64, 128, 64, 32, 128, 64, 64, 128, 128, 64, 64, 128, 128, 32, 128, 64, 64, 32, 32, 32, 128, 128, 128, 32, 128, 128, 64, 128, 64, 64, 32, 64, 64, 128, 32, 32, 64, 32]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 2:44:10
+Sampling (4 processes)  50%|██████████████              |  ETA: 0:56:17
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:19:26
+Sampling (4 processes) 100%|████████████████████████████| Time: 0:59:13
+Sampling (4 processes) 100%|████████████████████████████| Time: 0:59:13
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 826.87
+[ Info: Minimum Neff_samps = 1.36 for event GW190517_055101
+[ Info: Updating Nposts for event GW170104 from 64 to 128
+[ Info: Updating Nposts for event GW170729 from 128 to 256
+[ Info: Updating Nposts for event GW190413_134308 from 128 to 256
+[ Info: Updating Nposts for event GW190503_185404 from 64 to 128
+[ Info: Updating Nposts for event GW190517_055101 from 128 to 256
+[ Info: Updating Nposts for event GW190521_074359 from 128 to 256
+[ Info: Updating Nposts for event GW190620_030421 from 128 to 256
+[ Info: Updating Nposts for event GW190805_211137 from 128 to 256
+[ Info: Updating Nposts for event GW190915_235702 from 32 to 64
+[ Info: Updating Nposts for event GW190929_012149 from 128 to 256
+[ Info: Updating Nposts for event GW191222_033537 from 64 to 128
+[ Info: Updating Nposts for event GW191230_180458 from 128 to 256
+[ Info: Updating Nposts for event GW200216_220804 from 128 to 256
+[ Info: Updating Nposts for event GW200311_115853 from 32 to 64
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [64, 128, 256, 64, 32, 128, 64, 64, 256, 128, 128, 64, 256, 256, 32, 256, 64, 64, 32, 32, 32, 256, 128, 128, 64, 256, 128, 128, 256, 64, 64, 32, 64, 64, 256, 32, 32, 64, 64]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 2:58:18
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:00:05
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:20:03
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:02:59
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:02:59
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 710.72
+[ Info: Minimum Neff_samps = 1.0 for event GW190517_055101
+[ Info: Updating Nposts for event GW170729 from 256 to 512
+[ Info: Updating Nposts for event GW190513_205428 from 64 to 128
+[ Info: Updating Nposts for event GW190517_055101 from 256 to 512
+[ Info: Updating Nposts for event GW190521_074359 from 256 to 512
+[ Info: Updating Nposts for event GW190527_092055 from 32 to 64
+[ Info: Updating Nposts for event GW190620_030421 from 256 to 512
+[ Info: Updating Nposts for event GW190719_215514 from 64 to 128
+[ Info: Updating Nposts for event GW190929_012149 from 256 to 512
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [64, 128, 512, 64, 32, 128, 64, 64, 256, 128, 128, 128, 512, 512, 64, 512, 64, 128, 32, 32, 32, 256, 128, 128, 64, 512, 128, 128, 256, 64, 64, 32, 64, 64, 256, 32, 32, 64, 64]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 2:55:03
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:00:51
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:20:39
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:05:22
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:05:22
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 620.35
+[ Info: Minimum Neff_samps = 1.0 for event GW190517_055101
+[ Info: Updating Nposts for event GW170729 from 512 to 1024
+[ Info: Updating Nposts for event GW190517_055101 from 512 to 1024
+[ Info: Updating Nposts for event GW190620_030421 from 512 to 1024
+[ Info: Updating Nposts for event GW190910_112807 from 128 to 256
+[ Info: Updating Nposts for event GW190929_012149 from 512 to 1024
+[ Info: Updating Nposts for event GW191230_180458 from 256 to 512
+[ Info: Updating Nposts for event GW200128_022011 from 64 to 128
+[ Info: Updating Nposts for event GW200224_222234 from 32 to 64
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [64, 128, 1024, 64, 32, 128, 64, 64, 256, 128, 128, 128, 1024, 512, 64, 1024, 64, 128, 32, 32, 32, 256, 128, 256, 64, 1024, 128, 128, 512, 64, 128, 32, 64, 64, 256, 32, 64, 64, 64]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 3:12:28
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:05:19
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:22:50
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:08:35
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:08:35
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 745.01
+[ Info: Minimum Neff_samps = 1.09 for event GW190517_055101
+[ Info: Updating Nposts for event GW150914 from 64 to 128
+[ Info: Updating Nposts for event GW170729 from 1024 to 2048
+[ Info: Updating Nposts for event GW170814 from 32 to 64
+[ Info: Updating Nposts for event GW190517_055101 from 1024 to 2048
+[ Info: Updating Nposts for event GW190910_112807 from 256 to 512
+[ Info: Updating Nposts for event GW190929_012149 from 1024 to 2048
+[ Info: Updating Nposts for event GW191222_033537 from 128 to 256
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [128, 128, 2048, 64, 64, 128, 64, 64, 256, 128, 128, 128, 2048, 512, 64, 1024, 64, 128, 32, 32, 32, 256, 128, 512, 64, 2048, 128, 256, 512, 64, 128, 32, 64, 64, 256, 32, 64, 64, 64]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 3:21:02
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:07:08
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:24:10
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:16:52
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:16:52
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 606.14
+[ Info: Minimum Neff_samps = 2.23 for event GW170729
+[ Info: Updating Nposts for event GW170729 from 2048 to 4096
+[ Info: Updating Nposts for event GW190421_213856 from 128 to 256
+[ Info: Updating Nposts for event GW190513_205428 from 128 to 256
+[ Info: Updating Nposts for event GW190727_060333 from 32 to 64
+[ Info: Updating Nposts for event GW190929_012149 from 2048 to 4096
+[ Info: Updating Nposts for event GW191127_050227 from 128 to 256
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [128, 128, 4096, 64, 64, 128, 64, 64, 256, 256, 128, 256, 2048, 512, 64, 1024, 64, 128, 64, 32, 32, 256, 128, 512, 64, 4096, 256, 256, 512, 64, 128, 32, 64, 64, 256, 32, 64, 64, 64]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 3:41:17
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:14:21
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:26:22
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:22:01
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:22:01
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 631.82
+[ Info: Minimum Neff_samps = 3.08 for event GW190413_134308
+[ Info: Updating Nposts for event GW190413_134308 from 256 to 512
+[ Info: Updating Nposts for event GW190731_140936 from 32 to 64
+[ Info: Updating Nposts for event GW191127_050227 from 256 to 512
+[ Info: Updating Nposts for event GW191222_033537 from 256 to 512
+[ Info: Updating Nposts for event GW200216_220804 from 256 to 512
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [128, 128, 4096, 64, 64, 128, 64, 64, 512, 256, 128, 256, 2048, 512, 64, 1024, 64, 128, 64, 64, 32, 256, 128, 512, 64, 4096, 512, 512, 512, 64, 128, 32, 64, 64, 512, 32, 64, 64, 64]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:01:42
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:20:57
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:27:16
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:25:17
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:25:17
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 569.86
+[ Info: Minimum Neff_samps = 3.38 for event GW190521_074359
+[ Info: Updating Nposts for event GW190517_055101 from 2048 to 4096
+[ Info: Updating Nposts for event GW190521_074359 from 512 to 1024
+[ Info: Updating Nposts for event GW191127_050227 from 512 to 256
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [128, 128, 4096, 64, 64, 128, 64, 64, 512, 256, 128, 256, 4096, 1024, 64, 1024, 64, 128, 64, 64, 32, 256, 128, 512, 64, 4096, 256, 512, 512, 64, 128, 32, 64, 64, 512, 32, 64, 64, 64]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:01:54
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:20:53
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:27:15
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:22:12
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:22:12
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 547.97
+[ Info: Minimum Neff_samps = 2.56 for event GW190517_055101
+[ Info: Updating Nposts for event GW170814 from 64 to 128
+[ Info: Updating Nposts for event GW190517_055101 from 4096 to 8192
+[ Info: Updating Nposts for event GW200129_065458 from 32 to 64
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [128, 128, 4096, 64, 128, 128, 64, 64, 512, 256, 128, 256, 8192, 1024, 64, 1024, 64, 128, 64, 64, 32, 256, 128, 512, 64, 4096, 256, 512, 512, 64, 128, 64, 64, 64, 512, 32, 64, 64, 64]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:31:33
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:31:41
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:30:41
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:38:55
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:38:55
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 709.63
+[ Info: Minimum Neff_samps = 3.84 for event GW190620_030421
+[ Info: Updating Nposts for event GW170814 from 128 to 64
+[ Info: Updating Nposts for event GW190620_030421 from 1024 to 2048
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [128, 128, 4096, 64, 64, 128, 64, 64, 512, 256, 128, 256, 8192, 1024, 64, 2048, 64, 128, 64, 64, 32, 256, 128, 512, 64, 4096, 256, 512, 512, 64, 128, 64, 64, 64, 512, 32, 64, 64, 64]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:26:24
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:29:28
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:30:17
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:35:13
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:35:13
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 656.81
+[ Info: Minimum Neff_samps = 3.3 for event GW190517_055101
+[ Info: Updating Nposts for event GW190513_205428 from 256 to 128
+[ Info: Updating Nposts for event GW190517_055101 from 8192 to 16384
+[ Info: Updating Nposts for event GW191127_050227 from 256 to 512
+[ Info: Updated Nposts.  Writing to /mnt/home/sroy1/bumpcosmologygwtc3_Mc/scripts/../data/nposts.csv = [128, 128, 4096, 64, 64, 128, 64, 64, 512, 256, 128, 128, 16384, 1024, 64, 2048, 64, 128, 64, 64, 32, 256, 128, 512, 64, 4096, 512, 512, 512, 64, 128, 64, 64, 64, 512, 32, 64, 64, 64]
+[ Info: Looping again with updated Nposts!
+[ Info: Analyzing 39 events
+Sampling (4 processes)   0%|                            |  ETA: N/A
+Sampling (4 processes)  25%|███████                     |  ETA: 4:52:11
+Sampling (4 processes)  50%|██████████████              |  ETA: 1:47:07
+Sampling (4 processes)  75%|█████████████████████       |  ETA: 0:36:15
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:49:17
+Sampling (4 processes) 100%|████████████████████████████| Time: 1:49:17
+[ Info: 4*N = 156
+[ Info: Minimum Neff_sel = 570.41
+[ Info: Minimum Neff_samps = 4.02 for event GW190513_205428
+[ Info: No updates to Nposts
