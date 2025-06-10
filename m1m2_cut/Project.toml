@@ -18,6 +18,7 @@ Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 GaussianKDEs = "1419eebc-666c-4ddd-ac4c-9d7104ca2976"
 HDF5 = "f67ccb44-e63f-5c2f-98bd-6dc0ccc4ba2f"
 InferenceObjects = "b5cf5a8d-e756-4ee3-b014-01d49d192c00"
+Interpolations = "a98d9a8b-a2ab-59e6-89dd-64a1c18fca59"
 JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
 KernelDensity = "5ab0869b-81aa-558d-bb23-cbf5423bbe9b"
 LaTeXStrings = "b964fa9f-0449-5b57-a5c2-d3ea65f4040f"
@@ -44,6 +45,7 @@ UnitfulChainRules = "f31437dd-25a7-4345-875f-756556e6935d"
 PopModels = {rev = "main", url = "https://github.com/farr/PopModels.jl.git"}
 
 [compat]
+Interpolations = "0.15.1"
 KernelDensity = "0.6.9"
 ProgressLogging = "0.1.4"
 Turing = "0.37.0"
